@@ -9,6 +9,7 @@
   },
   "devDependencies": {},
   "scripts": {
+    "start" : "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,5 +21,7 @@
   "bugs": {
     "url": "https://github.com/CharlockHolmes/Webcamapp/issues"
   },
-  "homepage": "https://github.com/CharlockHolmes/Webcamapp#readme"
+  "homepage": "https://github.com/CharlockHolmes/Webcamapp#readme",
+ 
+
 }
