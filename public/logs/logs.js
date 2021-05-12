@@ -52,7 +52,7 @@ function setup() {
 
             image.src = item.data.image64;
             name.textContent = `Name: ${item.data.name}`;
-            geo.textContent = `Lat: ${item.data.latitude.toFixed(2)}° Lon: ${item.data.longitude.toFixed(2)}°`;
+            if(latitude != null)geo.textContent = `Lat: ${item.data.latitude.toFixed(2)}° Lon: ${item.data.longitude.toFixed(2)}°`;
             const dateString = new Date(item.data.time).toLocaleString();
             date.textContent = `time : ${dateString}`;
 
