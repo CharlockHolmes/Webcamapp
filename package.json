@@ -1,20 +1,24 @@
 {
-  "name": "testing_node",
+  "name": "webcamapp",
   "version": "1.0.0",
-  "description": "This is the first nodejs itilization",
+  "description": "",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [
-    "example",
-    "data",
-    "selfie"
-  ],
-  "author": "Charles Simon",
-  "license": "MIT",
   "dependencies": {
     "express": "^4.17.1",
     "nedb": "^1.8.0"
-  }
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CharlockHolmes/Webcamapp.git"
+  },
+  "author": "Charles Simon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CharlockHolmes/Webcamapp/issues"
+  },
+  "homepage": "https://github.com/CharlockHolmes/Webcamapp#readme"
 }
